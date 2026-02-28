@@ -1,4 +1,4 @@
-# SmartKhet Planner
+# AgroManager
 
 ->A lightweight Indian farm planning system that recommends crops, irrigation schedules, fertilizer plans, and expected profit based on land resources.
 
