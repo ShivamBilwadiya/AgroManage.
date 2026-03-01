@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "wheat_01",
+    "name": "Wheat",
+    "category": "Cereals",
+    "soil_type": [
+      "loamy",
+      "clayey",
+      "alluvial"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 20.0,
+    "msp": 3785.46,
+    "cost_per_acre": 15000.0,
+    "temp_range": [
+      10,
+      25
+    ],
+    "duration_days": 120,
+    "best_fertilizers": "Urea (N), DAP (P), MOP (K)"
+  },
+  {
+    "id": "rice_01",
+    "name": "Rice (Paddy)",
+    "category": "Cereals",
+    "soil_type": [
+      "clayey",
+      "loamy"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif"
+    ],
+    "yield_per_acre": 25.0,
+    "msp": 3463.42,
+    "cost_per_acre": 22000.0,
+    "temp_range": [
+      20,
+      35
+    ],
+    "duration_days": 150,
+    "best_fertilizers": "Urea (N), DAP (P), MOP (K)"
+  },
+  {
+    "id": "maize_01",
+    "name": "Maize",
+    "category": "Cereals",
+    "soil_type": [
+      "loamy",
+      "alluvial",
+      "sandy loam"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif",
+      "Zaid"
+    ],
+    "yield_per_acre": 18.0,
+    "msp": 4201.03,
+    "cost_per_acre": 15227.0,
+    "temp_range": [
+      21,
+      27
+    ],
+    "duration_days": 110,
+    "best_fertilizers": "Urea (N), DAP (P), MOP (K)"
+  },
+  {
+    "id": "bajra_01",
+    "name": "Bajra (Pearl Millet)",
+    "category": "Millets",
+    "soil_type": [
+      "sandy",
+      "sandy loam"
+    ],
+    "water_need": "low",
+    "season": [
+      "Kharif"
+    ],
+    "yield_per_acre": 10.0,
+    "msp": 15891.83,
+    "cost_per_acre": 23123.0,
+    "temp_range": [
+      25,
+      35
+    ],
+    "duration_days": 90,
+    "best_fertilizers": "NPK 19:19:19, Farmyard Manure (FYM)"
+  },
+  {
+    "id": "jowar_01",
+    "name": "Jowar (Sorghum)",
+    "category": "Millets",
+    "soil_type": [
+      "loamy",
+      "clayey",
+      "sandy loam"
+    ],
+    "water_need": "low",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 12.0,
+    "msp": 13565.08,
+    "cost_per_acre": 22300.0,
+    "temp_range": [
+      20,
+      32
+    ],
+    "duration_days": 100,
+    "best_fertilizers": "NPK 19:19:19, Farmyard Manure (FYM)"
+  },
+  {
+    "id": "ragi_01",
+    "name": "Ragi (Finger Millet)",
+    "category": "Millets",
+    "soil_type": [
+      "red",
+      "lateritic",
+      "sandy loam"
+    ],
+    "water_need": "low",
+    "season": [
+      "Kharif",
+      "Zaid"
+    ],
+    "yield_per_acre": 14.0,
+    "msp": 5020.75,
+    "cost_per_acre": 16263.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 120,
+    "best_fertilizers": "NPK 19:19:19, Farmyard Manure (FYM)"
+  },
+  {
+    "id": "cotton_01",
+    "name": "Cotton",
+    "category": "Cash Crops",
+    "soil_type": [
+      "black",
+      "alluvial",
+      "loamy"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif"
+    ],
+    "yield_per_acre": 10.0,
+    "msp": 8850.39,
+    "cost_per_acre": 25000.0,
+    "temp_range": [
+      21,
+      30
+    ],
+    "duration_days": 180,
+    "best_fertilizers": "NPK 10:26:26, Zinc Sulphate"
+  },
+  {
+    "id": "sugarcane_01",
+    "name": "Sugarcane",
+    "category": "Cash Crops",
+    "soil_type": [
+      "loamy",
+      "clayey",
+      "alluvial"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 300.0,
+    "msp": 962.41,
+    "cost_per_acre": 40000.0,
+    "temp_range": [
+      20,
+      35
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:26:26, Zinc Sulphate"
+  },
+  {
+    "id": "jute_01",
+    "name": "Jute",
+    "category": "Cash Crops",
+    "soil_type": [
+      "alluvial",
+      "loamy"
+    ],
+    "water_need": "high",
+    "season": [
+      "Zaid",
+      "Kharif"
+    ],
+    "yield_per_acre": 10.0,
+    "msp": 8816.65,
+    "cost_per_acre": 18000.0,
+    "temp_range": [
+      24,
+      35
+    ],
+    "duration_days": 120,
+    "best_fertilizers": "NPK 10:26:26, Zinc Sulphate"
+  },
+  {
+    "id": "mustard_01",
+    "name": "Mustard",
+    "category": "Oilseeds",
+    "soil_type": [
+      "sandy loam",
+      "loamy"
+    ],
+    "water_need": "low",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 8.0,
+    "msp": 6326.5,
+    "cost_per_acre": 16204.0,
+    "temp_range": [
+      10,
+      25
+    ],
+    "duration_days": 110,
+    "best_fertilizers": "Single Super Phosphate (SSP), Gypsum"
+  },
+  {
+    "id": "groundnut_01",
+    "name": "Groundnut",
+    "category": "Oilseeds",
+    "soil_type": [
+      "sandy",
+      "loamy",
+      "red"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 12.0,
+    "msp": 9284.99,
+    "cost_per_acre": 20000.0,
+    "temp_range": [
+      25,
+      30
+    ],
+    "duration_days": 120,
+    "best_fertilizers": "Single Super Phosphate (SSP), Gypsum"
+  },
+  {
+    "id": "soybean_01",
+    "name": "Soybean",
+    "category": "Oilseeds",
+    "soil_type": [
+      "loamy",
+      "clayey",
+      "black"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif"
+    ],
+    "yield_per_acre": 10.0,
+    "msp": 12242.76,
+    "cost_per_acre": 16000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 110,
+    "best_fertilizers": "Single Super Phosphate (SSP), Gypsum"
+  },
+  {
+    "id": "sunflower_01",
+    "name": "Sunflower",
+    "category": "Oilseeds",
+    "soil_type": [
+      "sandy loam",
+      "black",
+      "alluvial"
+    ],
+    "water_need": "low",
+    "season": [
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 8.0,
+    "msp": 8739.79,
+    "cost_per_acre": 15000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 100,
+    "best_fertilizers": "Single Super Phosphate (SSP), Gypsum"
+  },
+  {
+    "id": "sesame_01",
+    "name": "Sesame (Til)",
+    "category": "Oilseeds",
+    "soil_type": [
+      "sandy loam",
+      "red"
+    ],
+    "water_need": "low",
+    "season": [
+      "Kharif",
+      "Zaid"
+    ],
+    "yield_per_acre": 4.0,
+    "msp": 23482.55,
+    "cost_per_acre": 18528.0,
+    "temp_range": [
+      25,
+      35
+    ],
+    "duration_days": 85,
+    "best_fertilizers": "Single Super Phosphate (SSP), Gypsum"
+  },
+  {
+    "id": "chana_01",
+    "name": "Gram (Chana)",
+    "category": "Pulses",
+    "soil_type": [
+      "loamy",
+      "clayey"
+    ],
+    "water_need": "low",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 8.0,
+    "msp": 11649.24,
+    "cost_per_acre": 22705.0,
+    "temp_range": [
+      15,
+      25
+    ],
+    "duration_days": 130,
+    "best_fertilizers": "DAP, Rhizobium bio-fertilizer"
+  },
+  {
+    "id": "arhar_01",
+    "name": "Tur (Arhar)",
+    "category": "Pulses",
+    "soil_type": [
+      "loamy",
+      "black"
+    ],
+    "water_need": "low",
+    "season": [
+      "Kharif"
+    ],
+    "yield_per_acre": 6.0,
+    "msp": 10123.08,
+    "cost_per_acre": 15000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 160,
+    "best_fertilizers": "DAP, Rhizobium bio-fertilizer"
+  },
+  {
+    "id": "urad_01",
+    "name": "Urad (Black Gram)",
+    "category": "Pulses",
+    "soil_type": [
+      "loamy",
+      "sandy loam"
+    ],
+    "water_need": "low",
+    "season": [
+      "Kharif",
+      "Zaid"
+    ],
+    "yield_per_acre": 5.0,
+    "msp": 34799.1,
+    "cost_per_acre": 22156.0,
+    "temp_range": [
+      25,
+      35
+    ],
+    "duration_days": 75,
+    "best_fertilizers": "DAP, Rhizobium bio-fertilizer"
+  },
+  {
+    "id": "moong_01",
+    "name": "Moong (Green Gram)",
+    "category": "Pulses",
+    "soil_type": [
+      "sandy loam",
+      "loamy"
+    ],
+    "water_need": "low",
+    "season": [
+      "Kharif",
+      "Zaid"
+    ],
+    "yield_per_acre": 5.0,
+    "msp": 12935.85,
+    "cost_per_acre": 20125.0,
+    "temp_range": [
+      25,
+      35
+    ],
+    "duration_days": 70,
+    "best_fertilizers": "DAP, Rhizobium bio-fertilizer"
+  },
+  {
+    "id": "lentil_01",
+    "name": "Lentil (Masoor)",
+    "category": "Pulses",
+    "soil_type": [
+      "loamy",
+      "clayey"
+    ],
+    "water_need": "low",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 6.0,
+    "msp": 19495.53,
+    "cost_per_acre": 21930.0,
+    "temp_range": [
+      15,
+      25
+    ],
+    "duration_days": 120,
+    "best_fertilizers": "DAP, Rhizobium bio-fertilizer"
+  },
+  {
+    "id": "potato_01",
+    "name": "Potato",
+    "category": "Vegetables",
+    "soil_type": [
+      "sandy loam",
+      "loamy"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 80.0,
+    "msp": 2274.78,
+    "cost_per_acre": 35000.0,
+    "temp_range": [
+      15,
+      25
+    ],
+    "duration_days": 90,
+    "best_fertilizers": "NPK 12:32:16, Vermicompost"
+  },
+  {
+    "id": "onion_01",
+    "name": "Onion",
+    "category": "Vegetables",
+    "soil_type": [
+      "sandy loam",
+      "loamy",
+      "alluvial"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 60.0,
+    "msp": 3273.73,
+    "cost_per_acre": 30000.0,
+    "temp_range": [
+      15,
+      28
+    ],
+    "duration_days": 100,
+    "best_fertilizers": "NPK 12:32:16, Vermicompost"
+  },
+  {
+    "id": "tomato_01",
+    "name": "Tomato",
+    "category": "Vegetables",
+    "soil_type": [
+      "loamy",
+      "sandy loam",
+      "red"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 100.0,
+    "msp": 2841.24,
+    "cost_per_acre": 45000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 120,
+    "best_fertilizers": "NPK 12:32:16, Vermicompost"
+  },
+  {
+    "id": "brinjal_01",
+    "name": "Brinjal (Eggplant)",
+    "category": "Vegetables",
+    "soil_type": [
+      "loamy",
+      "alluvial"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif",
+      "Zaid"
+    ],
+    "yield_per_acre": 90.0,
+    "msp": 2192.6,
+    "cost_per_acre": 25000.0,
+    "temp_range": [
+      25,
+      32
+    ],
+    "duration_days": 110,
+    "best_fertilizers": "NPK 12:32:16, Vermicompost"
+  },
+  {
+    "id": "cabbage_01",
+    "name": "Cabbage",
+    "category": "Vegetables",
+    "soil_type": [
+      "loamy",
+      "clayey"
+    ],
+    "water_need": "high",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 120.0,
+    "msp": 752.82,
+    "cost_per_acre": 30000.0,
+    "temp_range": [
+      15,
+      25
+    ],
+    "duration_days": 85,
+    "best_fertilizers": "NPK 12:32:16, Vermicompost"
+  },
+  {
+    "id": "cauliflower_01",
+    "name": "Cauliflower",
+    "category": "Vegetables",
+    "soil_type": [
+      "loamy",
+      "clayey"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 80.0,
+    "msp": 2957.8,
+    "cost_per_acre": 32000.0,
+    "temp_range": [
+      15,
+      25
+    ],
+    "duration_days": 95,
+    "best_fertilizers": "NPK 12:32:16, Vermicompost"
+  },
+  {
+    "id": "chilli_01",
+    "name": "Chilli (Green)",
+    "category": "Spices/Vegetables",
+    "soil_type": [
+      "loamy",
+      "black",
+      "red"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif",
+      "Zaid"
+    ],
+    "yield_per_acre": 40.0,
+    "msp": 2842.87,
+    "cost_per_acre": 28000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 130,
+    "best_fertilizers": "NPK 12:32:16, Vermicompost"
+  },
+  {
+    "id": "garlic_01",
+    "name": "Garlic",
+    "category": "Spices",
+    "soil_type": [
+      "loamy",
+      "sandy loam"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 40.0,
+    "msp": 6017.6,
+    "cost_per_acre": 35000.0,
+    "temp_range": [
+      12,
+      25
+    ],
+    "duration_days": 130,
+    "best_fertilizers": "NPK 20:20:20, Neem Cake"
+  },
+  {
+    "id": "ginger_01",
+    "name": "Ginger",
+    "category": "Spices",
+    "soil_type": [
+      "loamy",
+      "sandy loam",
+      "red"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif"
+    ],
+    "yield_per_acre": 60.0,
+    "msp": 3264.98,
+    "cost_per_acre": 50000.0,
+    "temp_range": [
+      22,
+      28
+    ],
+    "duration_days": 240,
+    "best_fertilizers": "NPK 20:20:20, Neem Cake"
+  },
+  {
+    "id": "turmeric_01",
+    "name": "Turmeric",
+    "category": "Spices",
+    "soil_type": [
+      "loamy",
+      "clayey",
+      "red"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif"
+    ],
+    "yield_per_acre": 80.0,
+    "msp": 1895.06,
+    "cost_per_acre": 40000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 250,
+    "best_fertilizers": "NPK 20:20:20, Neem Cake"
+  },
+  {
+    "id": "coriander_01",
+    "name": "Coriander (Seed)",
+    "category": "Spices",
+    "soil_type": [
+      "loamy",
+      "black"
+    ],
+    "water_need": "low",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 8.0,
+    "msp": 8686.56,
+    "cost_per_acre": 15000.0,
+    "temp_range": [
+      15,
+      25
+    ],
+    "duration_days": 110,
+    "best_fertilizers": "NPK 20:20:20, Neem Cake"
+  },
+  {
+    "id": "cumin_01",
+    "name": "Cumin (Jeera)",
+    "category": "Spices",
+    "soil_type": [
+      "sandy loam",
+      "loamy"
+    ],
+    "water_need": "low",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 3.0,
+    "msp": 23256.44,
+    "cost_per_acre": 20000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 120,
+    "best_fertilizers": "NPK 20:20:20, Neem Cake"
+  },
+  {
+    "id": "mango_01",
+    "name": "Mango",
+    "category": "Fruits",
+    "soil_type": [
+      "alluvial",
+      "lateritic",
+      "loamy"
+    ],
+    "water_need": "high",
+    "season": [
+      "Zaid",
+      "Kharif"
+    ],
+    "yield_per_acre": 40.0,
+    "msp": 4354.77,
+    "cost_per_acre": 30000.0,
+    "temp_range": [
+      24,
+      30
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "banana_01",
+    "name": "Banana",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "alluvial"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 150.0,
+    "msp": 1334.89,
+    "cost_per_acre": 60000.0,
+    "temp_range": [
+      15,
+      35
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "papaya_01",
+    "name": "Papaya",
+    "category": "Fruits",
+    "soil_type": [
+      "sandy loam",
+      "loamy"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 200.0,
+    "msp": 929.22,
+    "cost_per_acre": 40000.0,
+    "temp_range": [
+      22,
+      32
+    ],
+    "duration_days": 270,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "guava_01",
+    "name": "Guava",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "alluvial",
+      "red"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 60.0,
+    "msp": 1700.92,
+    "cost_per_acre": 25000.0,
+    "temp_range": [
+      15,
+      30
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "pomegranate_01",
+    "name": "Pomegranate",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "sandy loam",
+      "black"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Rabi",
+      "Kharif"
+    ],
+    "yield_per_acre": 50.0,
+    "msp": 7340.72,
+    "cost_per_acre": 55000.0,
+    "temp_range": [
+      25,
+      35
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "grapes_01",
+    "name": "Grapes",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "sandy loam",
+      "red"
+    ],
+    "water_need": "high",
+    "season": [
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 100.0,
+    "msp": 3767.33,
+    "cost_per_acre": 80000.0,
+    "temp_range": [
+      15,
+      35
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "apple_01",
+    "name": "Apple",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "clayey"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif"
+    ],
+    "yield_per_acre": 60.0,
+    "msp": 5250.56,
+    "cost_per_acre": 65000.0,
+    "temp_range": [
+      10,
+      24
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "tea_01",
+    "name": "Tea",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "loamy",
+      "alluvial"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 10.0,
+    "msp": 16546.35,
+    "cost_per_acre": 35000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "coffee_01",
+    "name": "Coffee",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "red",
+      "loamy"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Zaid",
+      "Rabi"
+    ],
+    "yield_per_acre": 8.0,
+    "msp": 34853.57,
+    "cost_per_acre": 40000.0,
+    "temp_range": [
+      15,
+      28
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "rubber_01",
+    "name": "Rubber",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "loamy"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 14.0,
+    "msp": 14775.44,
+    "cost_per_acre": 45000.0,
+    "temp_range": [
+      25,
+      35
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "coconut_01",
+    "name": "Coconut",
+    "category": "Plantation",
+    "soil_type": [
+      "sandy",
+      "loamy",
+      "lateritic"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 4000.0,
+    "msp": 27.76,
+    "cost_per_acre": 30000.0,
+    "temp_range": [
+      27,
+      32
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "arecanut_01",
+    "name": "Arecanut (Betel nut)",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "loamy",
+      "red"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 8.0,
+    "msp": 47227.41,
+    "cost_per_acre": 50000.0,
+    "temp_range": [
+      14,
+      36
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "cashew_01",
+    "name": "Cashew",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "red",
+      "sandy"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 4.0,
+    "msp": 39945.39,
+    "cost_per_acre": 20000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "tobacco_01",
+    "name": "Tobacco",
+    "category": "Cash Crops",
+    "soil_type": [
+      "loamy",
+      "sandy loam",
+      "black"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 15.0,
+    "msp": 8690.8,
+    "cost_per_acre": 25000.0,
+    "temp_range": [
+      20,
+      27
+    ],
+    "duration_days": 110,
+    "best_fertilizers": "NPK 10:26:26, Zinc Sulphate"
+  }
+]
