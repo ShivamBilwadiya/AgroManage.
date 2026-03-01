@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroManager | Smart Farming Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="description"
+        content="Optimize farm resource allocation with AgroManager. Get crop recommendations, irrigation schedules, and profit estimations.">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="icon">🌾</span>
+                <h1>AgroManager</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#planner" class="btn-primary">Start Planning</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h2>Optimize Your Harvest, Maximize Your Profit</h2>
+            <p>Data-driven farm resource allocation for modern Indian agriculture based on land, soil, and water
+                constraints.</p>
+            <a href="#planner" class="btn-glow">Calculate Now</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-container">
+
+        <!-- Input Form Section -->
+        <section id="planner" class="planner-section glass-panel">
+            <div class="section-header">
+                <h3>Select Your Farm Parameters</h3>
+                <p>Provide details to generate a customized strategy.</p>
+            </div>
+
+            <form id="farm-form" class="farm-form">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label for="land_size">Land Size (Acres)</label>
+                        <input type="number" id="land_size" name="land_size" min="0.1" step="0.1" value="5.0" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="soil_type">Soil Type</label>
+                        <select id="soil_type" name="soil_type" required>
+                            <option value="loamy">Loamy</option>
+                            <option value="clayey">Clayey</option>
+                            <option value="sandy loam">Sandy Loam</option>
+                            <option value="alluvial">Alluvial</option>
+                            <option value="black">Black</option>
+                            <option value="red">Red</option>
+                            <option value="sandy">Sandy</option>
+                            <option value="lateritic">Lateritic</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="water_avail">Water Availability</label>
+                        <select id="water_avail" name="water_avail" required>
+                            <option value="low">Low (Rainfed / Limited)</option>
+                            <option value="medium" selected>Medium (Canal / Moderate Rain)</option>
+                            <option value="high">High (Assured Irrigation)</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="season">Season</label>
+                        <select id="season" name="season" required>
+                            <option value="Kharif">Kharif (Monsoon: Jul - Oct)</option>
+                            <option value="Rabi">Rabi (Winter: Oct - Mar)</option>
+                            <option value="Zaid">Zaid (Summer: Mar - Jun)</option>
+                            <option value="365 Days">365 Days (All Year)</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="budget">Total Investment Budget (₹)</label>
+                        <input type="number" id="budget" name="budget" min="1000" step="1000" value="50000" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label style="display: flex; justify-content: space-between;">
+                            <span>Crops You Want to Grow</span>
+                            <span style="font-size: 0.8rem; color: var(--text-muted);">(Optional)</span>
+                        </label>
+                        <!-- Custom Select Container -->
+                        <div id="custom_preferred_crops_container" class="custom-multi-select">
+                            <!-- Populated via JS -->
+                        </div>
+                        <input type="hidden" id="preferred_crops_hidden" name="preferred_crops" value="[]">
+                        <small style="color: var(--text-muted); font-size: 0.75rem;">Click to select/deselect
+                            crops</small>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="temperature">Avg Season Temp (°C)</label>
+                        <input type="number" id="temperature" name="temperature" min="-10" max="60" step="1" value="25"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="sowing_date">Planned Sowing Date</label>
+                        <input type="date" id="sowing_date" name="sowing_date" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn" id="generate-btn">
+                    <span class="btn-text">Generate Farm Plan</span>
+                    <div class="loader hidden" id="btn-loader"></div>
+                </button>
+            </form>
+        </section>
+
+        <!-- Results Section (Hidden initally) -->
+        <section id="results" class="results-section hidden">
+
+            <!-- Overall Summary -->
+            <div class="summary-cards">
+                <div class="card glass-card success">
+                    <h4>Total Expected Profit</h4>
+                    <span class="value" id="res-total-profit">₹0</span>
+                    <p class="subtitle">Based on latest MSP & Yield statistics</p>
+                </div>
+                <div class="card glass-card info">
+                    <h4>Optimized Land Utilization</h4>
+                    <span class="value" id="res-land-util">0 Acres</span>
+                </div>
+            </div>
+
+            <div class="results-grid">
+
+                <!-- Crop Recommendation Cards -->
+                <div class="recommendations-container" id="crop-cards">
+                    <!-- Cards will be populated dynamically -->
+                </div>
+
+                <!-- Visual Allocation Grid -->
+                <div class="visual-grid-container glass-panel">
+                    <h3>Visual Farm Allocation (10x10 Grid)</h3>
+                    <p>Each block represents 1% of your land allocation.</p>
+                    <div class="farm-grid" id="visual-grid">
+                        <!-- Grid cells will be generated here -->
+                    </div>
+                    <div class="grid-legend" id="grid-legend">
+                        <!-- Legend will be inserted here -->
+                    </div>
+                </div>
+
+                <!-- Farming Calendar -->
+                <div class="calendar-container glass-panel" style="grid-column: 1 / -1; margin-top: 1rem;">
+                    <h3>Integrated Farming Calendar</h3>
+                    <p>Irrigation and fertilization schedule structured from your planned sowing date.</p>
+                    <div class="timeline" id="calendar-timeline">
+                        <!-- timeline items -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 AgroManager. Empowering Indian Agriculture.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
