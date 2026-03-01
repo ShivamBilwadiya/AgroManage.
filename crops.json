@@ -734,5 +734,316 @@
     ],
     "duration_days": 365,
     "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "banana_01",
+    "name": "Banana",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "alluvial"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 150.0,
+    "msp": 1334.89,
+    "cost_per_acre": 60000.0,
+    "temp_range": [
+      15,
+      35
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "papaya_01",
+    "name": "Papaya",
+    "category": "Fruits",
+    "soil_type": [
+      "sandy loam",
+      "loamy"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 200.0,
+    "msp": 929.22,
+    "cost_per_acre": 40000.0,
+    "temp_range": [
+      22,
+      32
+    ],
+    "duration_days": 270,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "guava_01",
+    "name": "Guava",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "alluvial",
+      "red"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 60.0,
+    "msp": 1700.92,
+    "cost_per_acre": 25000.0,
+    "temp_range": [
+      15,
+      30
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "pomegranate_01",
+    "name": "Pomegranate",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "sandy loam",
+      "black"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Rabi",
+      "Kharif"
+    ],
+    "yield_per_acre": 50.0,
+    "msp": 7340.72,
+    "cost_per_acre": 55000.0,
+    "temp_range": [
+      25,
+      35
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "grapes_01",
+    "name": "Grapes",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "sandy loam",
+      "red"
+    ],
+    "water_need": "high",
+    "season": [
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 100.0,
+    "msp": 3767.33,
+    "cost_per_acre": 80000.0,
+    "temp_range": [
+      15,
+      35
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "apple_01",
+    "name": "Apple",
+    "category": "Fruits",
+    "soil_type": [
+      "loamy",
+      "clayey"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif"
+    ],
+    "yield_per_acre": 60.0,
+    "msp": 5250.56,
+    "cost_per_acre": 65000.0,
+    "temp_range": [
+      10,
+      24
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 15:15:15, Organic Compost"
+  },
+  {
+    "id": "tea_01",
+    "name": "Tea",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "loamy",
+      "alluvial"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 10.0,
+    "msp": 16546.35,
+    "cost_per_acre": 35000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "coffee_01",
+    "name": "Coffee",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "red",
+      "loamy"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Zaid",
+      "Rabi"
+    ],
+    "yield_per_acre": 8.0,
+    "msp": 34853.57,
+    "cost_per_acre": 40000.0,
+    "temp_range": [
+      15,
+      28
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "rubber_01",
+    "name": "Rubber",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "loamy"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 14.0,
+    "msp": 14775.44,
+    "cost_per_acre": 45000.0,
+    "temp_range": [
+      25,
+      35
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "coconut_01",
+    "name": "Coconut",
+    "category": "Plantation",
+    "soil_type": [
+      "sandy",
+      "loamy",
+      "lateritic"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 4000.0,
+    "msp": 27.76,
+    "cost_per_acre": 30000.0,
+    "temp_range": [
+      27,
+      32
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "arecanut_01",
+    "name": "Arecanut (Betel nut)",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "loamy",
+      "red"
+    ],
+    "water_need": "high",
+    "season": [
+      "Kharif",
+      "Rabi",
+      "Zaid"
+    ],
+    "yield_per_acre": 8.0,
+    "msp": 47227.41,
+    "cost_per_acre": 50000.0,
+    "temp_range": [
+      14,
+      36
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "cashew_01",
+    "name": "Cashew",
+    "category": "Plantation",
+    "soil_type": [
+      "lateritic",
+      "red",
+      "sandy"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Kharif",
+      "Rabi"
+    ],
+    "yield_per_acre": 4.0,
+    "msp": 39945.39,
+    "cost_per_acre": 20000.0,
+    "temp_range": [
+      20,
+      30
+    ],
+    "duration_days": 365,
+    "best_fertilizers": "NPK 10:10:10, Rock Phosphate"
+  },
+  {
+    "id": "tobacco_01",
+    "name": "Tobacco",
+    "category": "Cash Crops",
+    "soil_type": [
+      "loamy",
+      "sandy loam",
+      "black"
+    ],
+    "water_need": "medium",
+    "season": [
+      "Rabi"
+    ],
+    "yield_per_acre": 15.0,
+    "msp": 8690.8,
+    "cost_per_acre": 25000.0,
+    "temp_range": [
+      20,
+      27
+    ],
+    "duration_days": 110,
+    "best_fertilizers": "NPK 10:26:26, Zinc Sulphate"
   }
 ]
