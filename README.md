@@ -1,7 +1,7 @@
 # AgroManager
 
 ->A lightweight Indian farm planning system that recommends crops, irrigation schedules, fertilizer plans, and expected profit based on land resources.
-
+->ppt & demo video link : https://drive.google.com/drive/folders/1nT66X-McSqhldMwNpZwR5Vj7ZrTi5AWO?usp=drive_link
 ---
 
 ## 1. Problem Statement
